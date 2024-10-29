@@ -16,7 +16,7 @@
 }
 
 .hero {
-    background-color: #0c43a3; /* Replace with your background image */
+    background-color: #0f2573; /* Replace with your background image */
     background-size: cover;
     background-position: center;
     height: 60vh;
@@ -24,7 +24,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: white;
+    color:#fff;
     padding: 2rem;
 }
 .heroContent h1 {
