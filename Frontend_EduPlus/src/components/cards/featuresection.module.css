@@ -1,0 +1,56 @@
+.featurecard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  height: 20rem;
+  max-width: 1200px;
+  padding: 30px;
+  border-radius: 30px;
+  background: linear-gradient(145deg, #e2e2e2, #ffffff);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.4s ease, transform 0.4s ease;
+  cursor: pointer;
+  margin: 20px auto;
+  overflow: hidden; /* Ensures content stays within the card */
+}
+
+.featurecard:hover {
+  box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.2);
+}
+
+.featureimage {
+  width: 33%;
+  padding: 10px;
+}
+
+.featureimage img {
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.featuredescription {
+  width: 60%;
+  padding-left: 20px;
+  overflow: hidden; /* Ensures text doesn’t overflow */
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4; /* Limits text to 4 lines */
+  -webkit-box-orient: vertical;
+}
+
+.featuredescription h2 {
+  font-size: 35px;
+  color: #0b0101;
+  margin: 0 0 10px;
+}
+
+.featuredescription p {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.5;
+  margin: 0;
+}
