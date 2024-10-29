@@ -1,8 +1,8 @@
 import './App.css'
-import { Navbar } from './components/navbar'
-import { Hero } from './components/hero'
-import FeaturesSection  from './components/featuresection.jsx'
-import Footer from './components/footer.jsx'
+import { Navbar } from './Pages/HomePage/navbar.jsx'
+import { Hero } from './Pages/HomePage/hero.jsx'
+import FeaturesSection  from './Pages/HomePage/featuresection.jsx'
+import Footer from './Pages/HomePage/footer.jsx'
 function App() {
   return (
     <>
